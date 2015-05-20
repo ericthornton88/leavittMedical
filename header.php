@@ -20,7 +20,7 @@
 				<a href="solutions">Solutions</a>
 				<a href="our-team">Our Team</a>
 				<a href="contact">Contact</a>
-				<a href="">Login to BxLink</a>
+				<a href="https://leavitt.md/safe">Login to BxLink</a>
 			</div>
 			<nav>
 				<a href="solutions">Solutions</a>
@@ -29,7 +29,7 @@
 			</nav>
 			<div class="contact-login">
 				<div>844-987-2267</div>
-				<a href="">Login to BxLink</a>
+				<a href="https://leavitt.md/safe">Login to BxLink</a>
 			</div>
 		</div>
 	</header>
