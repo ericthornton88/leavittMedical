@@ -1,0 +1,1 @@
+This project is the main site for Leavitt Medical. This website uses basic html, css, and javascript. Images are highly optimized for better website efficiency. Uses media queries to create mobile views.
