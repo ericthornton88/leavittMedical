@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 	<title>Document</title>
 </head>
 <body>
@@ -18,13 +18,13 @@
 			<img src="images/menu-bars.png" alt="">
 			<div class="header-line-menu">
 				<a href="solutions">Solutions</a>
-				<a href="ourteam">Our Team</a>
+				<a href="our-team">Our Team</a>
 				<a href="contact">Contact</a>
 				<a href="">Login to BxLink</a>
 			</div>
 			<nav>
 				<a href="solutions">Solutions</a>
-				<a href="ourteam">Our Team</a>
+				<a href="our-team">Our Team</a>
 				<a href="contact">Contact</a>
 			</nav>
 			<div class="contact-login">

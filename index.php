@@ -5,7 +5,7 @@
 			<div>Providing innovative diagnostic solutions for clinics, laboratories, and medical groups</div>
 			<div>
 				<a href="solutions" class="a-btn">View Solutions</a>
-				<a href="ourteam" class="a-btn">Our Team</a>
+				<a href="our-team" class="a-btn">Our Team</a>
 			</div>
 		</div>
 	</div>
