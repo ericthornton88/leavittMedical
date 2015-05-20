@@ -20,9 +20,9 @@
 		      <label for="description">Message<abbr title="Required">*</abbr></label><textarea id="description" name="description" placeholder="Fill in the details here. Please try to be as specific as possible." required="required" rows="6" title="Please fill out this field."></textarea><div class="validation error" id="description_errors">&nbsp;</div>
 		      <div class="two_across">
 		        <div>
-		          <label for="name">Name<abbr title="Required">*</abbr></label><input id="name" name="name" required="required" title="Please fill out this field." type="text"><div class="validation error" id="name_errors">&nbsp;</div>
+		          <label for="name">Name<abbr title="Required">*</abbr></label><input id="name" name="name" placeholder="..." required="required" title="Please fill out this field." type="text"><div class="validation error" id="name_errors">&nbsp;</div>
 		        </div>
-		        <div><label for="email">Your email address<abbr title="Required">*</abbr></label><input data-type="email" id="email" name="email" required="required" title="Please fill out this field." type="email"><div class="validation error" id="email_errors">&nbsp;</div></div>
+		        <div><label for="email">Your email address<abbr title="Required">*</abbr></label><input data-type="email" id="email" name="email" placeholder="..." required="required" title="Please fill out this field." type="email"><div class="validation error" id="email_errors">&nbsp;</div></div>
 		      </div>
 
 

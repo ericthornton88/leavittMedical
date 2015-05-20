@@ -50,7 +50,7 @@
 			</div>
 		</div>
 		<div class="bio-container">
-			<img src="images/Bruce.png" alt="">
+			<img src="images/nacho.png" alt="">
 			<div class="bio-text-description-container">
 				<div>Matthew O. Leavitt, MD</div>
 				<div class="position-title">President</div>

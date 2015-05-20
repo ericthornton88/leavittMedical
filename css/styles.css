@@ -405,6 +405,7 @@ main {
 	background-color: rgba(0,153,0,1);
 	border-radius: 15px;
 	color: white;
+	z-index: 100;
 }
 
 #alert > div {
