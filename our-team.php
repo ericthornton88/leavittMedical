@@ -42,7 +42,7 @@
 		<div class="bio-container">
 			<img src="images/Andy.png" alt="">
 			<div class="bio-text-description-container">
-				<div>Silent T</div>
+				<div>Andy Ivie</div>
 				<div class="position-title">President</div>
 				<div class="more-about-btn">About Andy</div>
 				<div class="paragraph">Silencio T ipsum dolor sit amet, consectetur adipisicing elit. Possimus reprehenderit iste labore hic perspiciatis, enim a inventore vero excepturi, molestiae esse officiis aliquid. Impedit tempora, sed rerum et pariatur cum?</div>
