@@ -1,8 +1,31 @@
 $(function() {
+
+
 	//Mobile nav menu
 	$('.header-container > img').on('click', function() {
 		$('body').find('header .header-line-menu').toggleClass('show');
 	})
+
+	
+	//Provides and gets rid of the options under 'Solutions'
+	$('.header-container nav > a:nth-child(2)').click(function(e) {
+	  	e.preventDefault();
+	  	$(this).siblings('div').show()
+	})
+	
+	$('.header-container nav > div').mouseleave(function() {
+	  	$(this).hide()
+	})
+	$('.header-container nav > a:nth-child(3)').mouseenter(function() {
+	  	$(this).siblings('div').hide();
+	})
+	$('.header-container nav > a:nth-child(4)').mouseenter(function() {
+	  	$(this).siblings('div').hide();
+	})
+	$('.hero').mouseenter(function() {
+	  	$('body').find('.header-container nav > div').hide();
+	})
+
 
 	//Mobile. Shows the pop up box with info about the employee
 	$('.more-about-btn').on('click', function() {

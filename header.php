@@ -22,7 +22,11 @@
 				<a href="https://leavitt.md/safe">Login to BxLink</a>
 			</div>
 			<nav>
-				<a href="solutions">Solutions</a>
+				<div>
+					<a href="bxlink">BxLink</a>
+					<a href="bxchip">BxChip</a>
+				</div>
+				<a href="">Solutions</a>
 				<a href="our-team">Our Team</a>
 				<a href="contact">Contact</a>
 			</nav>
@@ -32,3 +36,4 @@
 			</div>
 		</div>
 	</header>
+	<div class="support-tab"><a href="/contact">Support</a></div>
