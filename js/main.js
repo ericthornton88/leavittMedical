@@ -26,6 +26,11 @@ $(function() {
 	  	$('body').find('.header-container nav > div').hide();
 	})
 
+	//Video Load
+	$('.support-container > div:nth-child(2)').on('click', function() {
+		$('.videos-container').show();
+	})
+
 
 	//Mobile. Shows the pop up box with info about the employee
 	$('.more-about-btn').on('click', function() {
@@ -44,31 +49,44 @@ $(function() {
 	  	$('.team-lightbox').hide()
 	})
 
+	if (document.location == 'http://localhost/leavittHome/contact.php?success=1') {
+		$('#alert > div').text('Your message has been sent');
+		$('#alert').show(0).delay(3000).hide(0);
+	};
 
+	if (document.location == 'http://localhost/leavittHome/contact.php?success=0') {
+		$('#alert > div').text('Message failed. Please contact us by phone.');
+		// $('#subject').text(subject);
+		// $('#description').text(description);
+		// $('#name').text(name);
+		// $('#email').text(email);
+		$('#alert').css('background-color', '#FF4040');
+		$('#alert').show(0).delay(3000).hide(0);
+	};
 	//Contact us form
   	$('form').on('submit', function(e) {
-  	  	e.preventDefault();
-		$.ajax({
-		  method: "POST",
-		  dataType: "jsonp",
-		  url: "https://leavittmd.zendesk.com/requests/embedded/create/",
-		  data: $("#feedback-form").serialize(),
-		  success: function(data, textStatus) {
-		        if (data) {
-		            // data.redirect contains the string URL to redirect to
-		            window.location.href = "leavitt.md";
-		        }
-		        else {
-		            // data.form contains the HTML for the replacement form
-		            $("#myform").replaceWith(data.form);
-		        }
-	    	}
-		})
-		$('#subject').val('');
-		$('#description').val('');
-		$('#name').val('');
-		$('#email').val('');
-		$('#alert').show(0).delay(2000).hide(0);
+  // 	  	e.preventDefault();
+		// $.ajax({
+		//   method: "POST",
+		//   dataType: "jsonp",
+		//   url: "https://leavittmd.zendesk.com/requests/embedded/create/",
+		//   data: $("#feedback-form").serialize(),
+		//   success: function(data, textStatus) {
+		//         if (data) {
+		//             // data.redirect contains the string URL to redirect to
+		//             window.location.href = "leavitt.md";
+		//         }
+		//         else {
+		//             // data.form contains the HTML for the replacement form
+		//             $("#myform").replaceWith(data.form);
+		//         }
+	 //    	}
+		// })
+		// subject = $('#subject').val('');
+		// description = $('#description').val('');
+		// name = $('#name').val('');
+		// email = $('#email').val('');
+		//$('#alert').show(0).delay(2000).hide(0);
   	})
   	
 })

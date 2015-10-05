@@ -1,5 +1,12 @@
 <?php include_once 'header.php'; ?>
 
+	<!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+	  <iframe frameborder="0" height="100%" width="100%" 
+	    src="https://youtube.com/embed/Nv7Ts4v5_Bs?autoplay=1&controls=0&showinfo=0&autohide=1">
+	  </iframe>
+	</div> -->
+
+
 	<div class="hero">
 		<div class="hero-container center-container">
 			<div>Providing innovative diagnostic solutions for clinics, laboratories, and medical groups</div>

@@ -473,6 +473,50 @@ main {
 	margin-bottom: 20px;
 }
 
+
+/****************************************
+  Support
+*****************************************/
+
+.support-container {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.support-container > div:first-child {
+	color: rgb(84, 199, 231);
+	font-size: 40px;
+	margin-bottom: 80px;
+}
+
+.support-container > div:nth-child(2) {
+	background-color: #B1C100;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.support-container > div:nth-child(2):hover {
+	cursor: pointer;
+}
+
+.videos-container {
+	display: none;
+	margin-top: 50px;
+}
+
+.videos-container > iframe {
+	margin: 20px;
+}
+
+.videos-container > iframe:nth-child(1){
+	margin-left: 0px;
+}
+
+.videos-container > iframe:nth-child(3) {
+	margin-left: 0;
+}
+
 /****************************************
   Contact
 *****************************************/
@@ -969,6 +1013,10 @@ Responsive CSS
 		display: none;
 	}
 
+	.support-tab {
+		display: none;
+	}
+
 	/****************************************
 	  Hero
 	*****************************************/
@@ -1327,6 +1375,10 @@ Responsive CSS
 	}
 
 	.contact-login > div {
+		display: none;
+	}
+
+	.support-tab {
 		display: none;
 	}
 
